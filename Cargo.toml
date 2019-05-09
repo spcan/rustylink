@@ -1,0 +1,39 @@
+[package]
+name = "rustylink"
+version = "0.1.0"
+authors = ["spcan <agrc14@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+
+
+[dependencies.lazy_static]
+version = "1"
+
+[dependencies.chrono]
+version = "0.4.6"
+
+[dependencies.fern]
+version = "0.5.8"
+features = ["colored"]
+
+[dependencies.log]
+version = "0.4.6"
+
+[dependencies.libusb]
+version = "0.3.0"
+
+[dependencies.libusb-sys]
+version = "*"
+
+[dependencies.goblin]
+version = "0.0.22"
+
+[dependencies.crossbeam-channel]
+version = "0.3"
+
+[dependencies.elf]
+version = "*"
+
+[features]
+rawusb = []
